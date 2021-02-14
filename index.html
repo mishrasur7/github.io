@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="utf-8"/>
+    <title>School's Homepage</title>
+    <style>
+    body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #595959;
+    color: #ffffff;
+    list-style: none; 
+    text-align: center; 
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding-right: 90px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav > li > a:hover {
+    color: #c1c1c1;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 7px;
+    text-shadow: 1px 1px;
+    font-family: cursive;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 40% 30%; 
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 0 60px 0 30px;
+}
+
+.grid > div {
+    background-color: thistle;
+    padding: 2px;
+}
+
+.footer {
+    text-align: center;
+
+}
+
+.footer > div {
+    margin: 10px 500px; 
+}
+    </style> 
+</head>
+<body>
+<header>
+<ul class="nav">
+   <li><a href="#">Homepage</a></li>
+   <li><a href="#">Education</a></li>
+   <li><a href="#">Faculties</a></li>
+   <li><a href="#">Board of Directors</a></li>
+   <li><a href="#">Contact</a></li>
+</ul>
+</header>
+
+<h1>Quantum College of Software Engineering</h1>
+
+<div class="grid">
+    <div>
+        <p>Frontend Engineer</p>
+        A front-end engineer, also known as a front-end web developer or designer, selects, 
+        installs and tests the user interface elements of a website. The front-end developer 
+        focuses on the look and feel of the site, along with its functionality.
+    </div>
+
+    <div>
+        <p>Backend Engineer</p>
+        In the context of a software development team, a backend engineer is generally responsible for building the structure of a software application. 
+        They'll primarily spend time writing business logic, server scripts and APIs that will eventually be utilized by front-end developers and UX designers.
+    </div>
+    <div>
+        <p>Full-Stact Engineer</p>
+        A full stack developer is a web developer or engineer who works with both the front and back ends of a website or application—meaning 
+        they can tackle projects that involve databases, building user-facing websites, or even work with clients during the planning phase of projects.
+    </div>
+
+    <div>
+        <p>Database Engineer</p>
+        Database administrators use specialized software to store and organize data. The role may include capacity planning, installation, 
+        configuration, database design, migration, performance monitoring, security, troubleshooting, as well as backup and data recovery.
+    </div>
+
+    <div>
+        <p>C++ Developer</p>
+        A C++ developer designs and develops software solutions with the programming language of the same name. 
+        In addition to programming, further development, and optimization, their tasks also include the maintenance of these software systems.
+    </div>
+
+    <div>
+        <p>Python Developer</p>
+        A Python Web Developer is responsible for writing server-side web application logic. Python web developers usually develop back-end components, 
+        connect the application with the other (often third-party) web services, 
+        and support the front-end developers by integrating their work with the Python application.
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div>
+    <p>Leave your contact details here.</p>
+    <form>
+        <input type="text" placeholder="Firstname">
+        <input type="text" placeholder="Lastname">
+        <input type="text" placeholder="Email">
+        <input type="number" placeholder="Phonenumber">
+
+        <div>
+            <input type="radio" id="male" name="gender"><label for="male">Male</label>
+            <input type="radio" id="female" name="gender"><label for="female">Female</label>
+        </div>
+        <input type="submit" name="Submit">
+
+    </form>
+    </div>
+</footer>
+    
+
+
+</body>
+</html>
